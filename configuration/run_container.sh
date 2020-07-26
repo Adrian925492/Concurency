@@ -10,6 +10,6 @@ docker run \
        --rm \
        -v "$BASEDIR"/..:/repo \
        -w /repo\
-       --name cpp_training_module1 \
-       training_module1_image \
+       --name concurency_cont \
+       concurency_image \
        "$@"

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION "3.10")
 
-projecti(Concurency_UT)
+project(Concurency_UT)
 
 set (PROJECT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set (EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../output/bin)
@@ -21,8 +21,8 @@ add_subdirectory(
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 add_executable(Concurency_UT
-	my_thread.cpp
-	${SOURCE_DIR}/thread.cpp
+	thread_test.cpp
+	${SOURCE_DIR}/my_thread.cpp
 	)
 
 target_link_libraries(Concurency_UT 
