@@ -8,6 +8,8 @@ set (LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../output/lib)
 
 set (CMAKE_CXX_STANDARD 11)
 
+set (CMAKE_CXX_FLAGS -pthread)
+
 add_executable(Concurency_ 
 	main.cpp 
 	my_thread.cpp 
