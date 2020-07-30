@@ -13,5 +13,6 @@ set (CMAKE_CXX_FLAGS -pthread)
 add_executable(Concurency_ 
 	main.cpp 
 	my_thread.cpp 
+	my_atomic_variable.cpp
 	)
 
