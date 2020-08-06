@@ -3,5 +3,6 @@
 
 void thread_example();
 void atomic_example();
+void mutex_example();
 
 #endif
