@@ -15,5 +15,6 @@ add_executable(Concurency_
 	my_thread.cpp 
 	my_atomic_variable.cpp
 	my_mutex.cpp
+	my_condition_variable.cpp
 	)
 
