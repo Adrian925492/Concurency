@@ -6,6 +6,7 @@ int main(void)
 	atomic_example();
 	mutex_example();
 	condition_variable_example();
+	future_example();
 	
 	return 0;
 }

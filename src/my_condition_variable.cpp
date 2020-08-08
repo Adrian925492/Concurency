@@ -24,7 +24,6 @@ be continued. It shall return true, if wait should be continued.
 
 */
 
-
 #include <thread>
 #include <iostream>
 #include <mutex>

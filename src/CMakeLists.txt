@@ -16,5 +16,6 @@ add_executable(Concurency_
 	my_atomic_variable.cpp
 	my_mutex.cpp
 	my_condition_variable.cpp
+	my_future.cpp
 	)
 
